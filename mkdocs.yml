@@ -52,11 +52,6 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets:
-      # Allow us to embed snippets inside our docs.
-      base_path: "snippets/"
-      # Make the build fail if a snippet can't be found.
-      check_paths: true
   - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.mark
