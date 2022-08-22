@@ -10,10 +10,6 @@ I usually blog about things that I've learned and found interesting to be shared
 - Always be a student.
 - Appreciate, forgive, and be kind to team members of all levels.
 
-## Recent TILs
-
-- [Using namedtuple instead of dict]()
-
 ## Recent posts
 
 - [Match bool prefix](./Elastic-Search/index.md)
