@@ -1,6 +1,6 @@
 ---
 title: Writing CLI tools using Typer
-date: "2021-05-15T22:12:03.284Z"
+date: "2021-05-15"
 description: "See how easy it is to combine python functions and typer's decorators to create cli tools."
 ---
 

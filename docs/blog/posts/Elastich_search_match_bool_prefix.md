@@ -1,6 +1,6 @@
 ---
 title: Elastic Search (part 1 of many)
-date: "2022-03-24T12:12:03.284Z"
+date: "2022-03-24"
 description: "Match bool prefix might be the solution you're looking for."
 ---
 

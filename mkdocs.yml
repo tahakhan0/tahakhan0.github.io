@@ -62,5 +62,16 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-#plugins:
-#  - blog
+plugins:
+  - blog:
+      blog_dir: blog/
+      post_url_date_format: yyyy/MM/dd
+      blog_toc: true
+
+nav:
+  - Blog:
+    - blog/index.md
+    - blog/CLI_using_typer.md
+    - blog/Elastich_search_match_bool_prefix.md
+    - blog/python_datetimes.md
+    - blog/GraphQL-Interfaces/index.md

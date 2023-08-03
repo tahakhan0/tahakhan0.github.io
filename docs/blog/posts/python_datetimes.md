@@ -1,6 +1,6 @@
 ---
 title: Python datetime (Part 1 of many)
-date: "2021-10-03T22:12:03.284Z"
+date: "2021-10-03"
 description: "Learning subtle differences in datetimes"
 ---
 
