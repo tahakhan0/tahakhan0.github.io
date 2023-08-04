@@ -4,13 +4,17 @@ date: "2021-05-15"
 description: "See how easy it is to combine python functions and typer's decorators to create cli tools."
 ---
 
-## Background
+# CLI tool using typer
 
 I was given a task to write a cli (command line interface) tool in python. Naively, I started with [argparse](https://docs.python.org/3/library/argparse.html). Which is an awesome library but not beginner friendly. Luckily my mentor/manager stopped me at the right time and introduced me to [Typer](https://typer.tiangolo.com/).
+
+
+<!-- more -->
 
 Typer is a library written by [Sebastián Ramírez](https://twitter.com/tiangolo?lang=en) and it makes it really easy to write CLI tools.
 
 It is simple and easy to learn because it lets you write python functions using Typer's decorators. Meaning you can write CLI tools if you know basic python functions.
+
 
 ## Project
 

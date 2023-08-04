@@ -3,22 +3,18 @@ theme:
   name: material
   # Back to top button.
   features:
-    - navigation.top
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
+    - navigation.indexes
+    - navigation.expand
+    - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: blue grey
       accent: indigo
       toggle:
         icon: material/brightness-4
@@ -67,11 +63,9 @@ plugins:
       blog_dir: blog/
       post_url_date_format: yyyy/MM/dd
       blog_toc: true
+      archive: false
 
 nav:
+  - home.md
   - Blog:
     - blog/index.md
-    - blog/CLI_using_typer.md
-    - blog/Elastich_search_match_bool_prefix.md
-    - blog/python_datetimes.md
-    - blog/GraphQL-Interfaces/index.md

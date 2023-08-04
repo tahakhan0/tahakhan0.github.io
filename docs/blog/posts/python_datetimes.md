@@ -4,6 +4,13 @@ date: "2021-10-03"
 description: "Learning subtle differences in datetimes"
 ---
 
+# Navigating python datetime
+
+If a given datetime is in UTC, will it still be the same if we convert it to central timezone (America/Chicago)?
+
+
+<!-- more -->
+
 ## Background
 
 This week I was tackling a bug that involved datetime and timezones. After working on it for a while I needed help. Not necessarily a hard problem but timezones are confusing and can quickly make the problem worse.
@@ -14,9 +21,6 @@ David, if you're reading this blog, Thank you 🙏
 
 You should check out his [blog](https://seddonym.me/), he has some intereseting topics there.
 
-## What was my problem?
-
-If a given datetime is in UTC, will it still be the same if we convert it to central timezone (America/Chicago)?
 
 ## Answer
 

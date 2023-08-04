@@ -1,11 +1,15 @@
 ---
 title: GraphQL Interface
-date: "2021-05-26T22:12:03.284Z"
+date: "2021-05-26"
 description: "What is an interface? How should you use them and when to avoid them. Examples include query and mutation."
 ---
 
+# GraphQL interfaces
+
 Also known as abstraction, mixin, base classes. Although, I like the word interface because it reminds
 me of its similarity with an electric socket, that needs something to be plugged into it to be useful.
+
+<!-- more -->
 
 In the image below, we can see the behavior of an interface (socket). 
 

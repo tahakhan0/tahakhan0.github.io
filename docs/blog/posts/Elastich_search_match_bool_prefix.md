@@ -2,9 +2,16 @@
 title: Elastic Search (part 1 of many)
 date: "2022-03-24"
 description: "Match bool prefix might be the solution you're looking for."
+categories:
+  - Elastic Search
+  - Python
 ---
 
-## Background
+# Elastic search using match bool prefix
+
+I realized users would always search using the perfect search terms, they would always have the right spellings, or they won't try to search using a keyword in the middle of a sentence. Turns out I was all wrong. It wasn't the user's fault, it was my thinking of how this service would be used.
+
+<!-- more -->
 
 One of the best things about my work place ([Octopus Energy](https://octopusenergy.com/)) is that I get to learn new tools and have the luxury to try and fail.
 
@@ -12,11 +19,7 @@ Earlier this year, I was given a task to implement elastic search for a model th
 
 Side note - One of the best arts I've picked at Octopus Energy is that I absolutely love chronlogical commits, PR descriptions that try to solve one problem and do it thoroughly. My PR descriptions will also contain enough notes to help the next person get started on a similar work. I also do it out of selfishness because I don't usually get it right the first time, so it is easier for me to just look back again and have all the commands and resources available.
 
-## What was my problem?
-
-I already got over the big part which was understanding and implementing elastic search. However, it wasn't being used in the way I thought it would be used. I mean, I thought users would always search using the perfect search terms, they would always have the right spellings or they won't try to search using a keyword in the middle of a sentence. Turns out I was all wrong. It wasn't the user's fault, it was my thinking of how this service would be used.
-
-## Answer
+## Takeaway
 
 Get feedback from your users and try to use the service as they would use. One of the pain points that was immediately obvious was that I totally forgot the importance of combining search results to narrow down a search. In other words, I simply forgot how to do an "AND" search. This reminds me of my ECE 251 class at [NJIT](https://www.njit.edu/) and my professor's famous quote: _Don't lose common sense_.
 
@@ -58,7 +61,6 @@ By doing an "AND" search, which is simply calling the query function twice, I al
 }
 ```
 
-</br>
 
 ## References
 
