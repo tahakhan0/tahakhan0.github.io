@@ -66,6 +66,6 @@ plugins:
       archive: false
 
 nav:
-  - home.md
+  - Home: index.md
   - Blog:
     - blog/index.md
